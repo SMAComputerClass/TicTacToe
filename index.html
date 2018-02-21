@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>             <!-- Declare that this an HTML5 document. -->
+<html lang="en">            <!-- Declare the content language. -->
+<head>
+    <meta charset="utf-8">  <!-- Declare the document's character set. -->
+    <title>Tic Tac Toe</title>   <!-- Set the page title.  Will be displayed at the top of the browser window and in bookmarks.  -->
+    <link rel="stylesheet" href="index.css">    <!-- Include styles from index.css. -->
+</head>
+
+
+  <body>
+
+<!-- Define the tic tac toe board (Named element "board").  A board is made up of 9 squares -->
+    <div id="board">
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+    </div>
+
+<!-- This area is where we announce the winner and show the replay button -->
+    <br>
+    <h1>
+    <div id="resultsText"></div>
+    </h1>
+    <br>
+    <button type="button" id="replayButton">Replay</button>
+
+<script src="index.js"></script>    <!-- Include index.js as a JavaScript script file. -->
+
+  </body>
+
+</html>
